@@ -17,9 +17,9 @@ To use the IDA-Pattern-Scanner, you must first create an instance of the `patter
 
    // get_result() returns a handle object which can be further edited.
    
-  .add(X)
-  .sub()
-  .rip()
+   .add(X)
+   .sub()
+   .rip()
 
 ```
 
