@@ -25,6 +25,15 @@ namespace scanner
             return *this;
         }
 
+        handle sub(uintptr_t offset) const {
+            if (m_address != 0)
+            {
+                return handle(m_address - offset);
+            }
+
+            return *this;
+        }
+
         handle rip() const {
             if (m_address != 0)
             {
